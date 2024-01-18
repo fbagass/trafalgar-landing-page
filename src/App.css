@@ -1,7 +1,7 @@
 .navbar {
   margin-top: 56px;
   height: 41px;
-  max-width: 1273px;
+  max-width: 1487px;
 }
 
 .t-logo {
@@ -17,7 +17,7 @@
 }
 .navbar-logo p {
   font-size: 24px;
-  font-weight: 700px;
+  font-weight: 700;
   line-height: 30.12px;
   color: #233348;
 }

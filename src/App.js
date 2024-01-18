@@ -12,9 +12,9 @@ function App() {
     });
   });
   return (
-    <div className="container mx-auto">
+    <div className="container">
       {/* navbar */}
-      <div className="navbar flex justify-between items-center ">
+      <div className="navbar flex justify-between items-center">
         {/* Logo */}
         <div className="navbar-logo flex justify-center items-center gap-3">
           <div className="t-logo flex justify-center items-center">T</div>
