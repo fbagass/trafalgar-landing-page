@@ -28,3 +28,51 @@
   line-height: 22.59px;
   color: #7d7987;
 }
+
+.header {
+  margin-top: 104px;
+}
+
+.header-1 img {
+  margin-left: -90px;
+  height: 115px;
+}
+.header-1 h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  max-width: 445px;
+  margin-bottom: 16px;
+}
+.header-1 p {
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 32px;
+  color: #7d7987;
+  max-width: 450px;
+  margin-bottom: 34px;
+}
+
+.consult-btn {
+  width: 200px;
+  height: 56px;
+  border-radius: 55px;
+  background-color: #458ff6;
+
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #ffffff;
+}
+.header-2 img {
+  width: 100%;
+  height: 100%;
+  max-width: 693px;
+  max-height: 598px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header-1 {
+    order: 2;
+  }
+}
