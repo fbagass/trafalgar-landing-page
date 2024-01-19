@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="page-size">
       {/* navbar */}
-      <div className="navbar container flex justify-between items-center">
+      <div className="navbar mt-14 container flex justify-between items-center">
         {/* Logo */}
         <div className="navbar-logo flex justify-center items-center gap-3">
           <div className="t-logo flex justify-center items-center">T</div>
@@ -31,17 +31,17 @@ function App() {
       </div>
       {/* Header */}
       <div
-        className="header-bg w-100"
+        className="header-bg w-100 mb-44"
         style={{
           backgroundImage: `url(${
             process.env.PUBLIC_URL + "/Assets/element.png"
           })`,
         }}
       >
-        <div className="header container grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-5">
-          <div className="header-1 col-span-2">
-            <h1>Virtual healthcare for you</h1>
-            <p>
+        <div className="container mt-24 pt-2 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-5">
+          <div className="header-1 pt-28 col-span-2">
+            <h1 className="mb-4">Virtual healthcare for you</h1>
+            <p className="mb-7">
               Trafalgar provides progressive, and affordable healthcare,
               accessible on mobile and online for everyone
             </p>
@@ -60,7 +60,7 @@ function App() {
       </div>
       {/* Our Service */}
       <div
-        className="service-bg-element w-100"
+        className="service-bg-element w-100 mb-56"
         style={{
           backgroundImage: `url(${
             process.env.PUBLIC_URL + "/Assets/bg-element.svg"
@@ -75,14 +75,14 @@ function App() {
             })`,
           }}
         >
-          <div className="our-service flex flex-col text-center">
+          <div className="our-service gap-6 mb-24 flex flex-col text-center">
             <h3>Our services</h3>
             <img
               src={process.env.PUBLIC_URL + "/Assets/rectangle.svg"}
               alt="rectangle"
               style={{ height: "2px" }}
             />
-            <p>
+            <p className="px-32">
               We provide to you the best choiches for you. Adjust it to your
               health needs and make sure your undergo treatment with our highly
               qualified doctors you can consult with us which type of service is
@@ -158,7 +158,83 @@ function App() {
               <p>Track and save your medical history and health data</p>
             </div>
           </div>
-          <div className="service-btn text-center">Learn more</div>
+          <div
+            className="service-btn text-center"
+            style={{ marginTop: "72px" }}
+          >
+            Learn more
+          </div>
+        </div>
+      </div>
+      {/* Banner 1 */}
+      <div className="grid grid-cols-1 xl:grid-cols-2 mx-11">
+        <div className="banner1-content-1 flex justify-end col-span-1">
+          <img
+            src={
+              process.env.PUBLIC_URL +
+              "/Assets/banner-trafalgar-illustration-1.png"
+            }
+            alt="trafalgar-illustration"
+          />
+        </div>
+        <div className="banner1-content-2 col-span-1 ps-28 pe-48 pt-14 me-9">
+          <h3>Leading healtcare providers</h3>
+          <img
+            src={process.env.PUBLIC_URL + "/Assets/rectangle.svg"}
+            alt="rectangle"
+            style={{ height: "2px", margin: "31px 0px" }}
+          />
+          <p>
+            Trafalgar provides progressive, and affordable healthcare,
+            accessible on mobile and online for everyone. To us, it’s not just
+            work. We take pride in the solutions we deliver
+          </p>
+          <div
+            className="service-btn text-center"
+            style={{ marginTop: "37px", marginBottom: "32px" }}
+          >
+            Learn more
+          </div>
+        </div>
+      </div>
+      {/* Banner 2 */}
+      <div
+        className="banner2-bg w-100"
+        style={{
+          backgroundImage: `url(${
+            process.env.PUBLIC_URL + "/Assets/element.png"
+          })`,
+        }}
+      >
+        <div className="pt-56 grid grid-cols-1 xl:grid-cols-2 mx-11">
+          <div className="banner2-content-1 col-span-1 pt-9 ps-60 pe-28 mb-64 me-8">
+            <h3 className="pe-5">Download our mobile apps</h3>
+            <img
+              src={process.env.PUBLIC_URL + "/Assets/rectangle.svg"}
+              alt="rectangle"
+              style={{ height: "2px", margin: "31px 0px" }}
+            />
+            <p>
+              Our dedicated patient engagement app and web portal allow you to
+              access information instantaneously (no tedeous form, long calls,
+              or administrative hassle) and securely
+            </p>
+            <div
+              className="service-btn text-center"
+              style={{ marginTop: "37px", marginBottom: "32px" }}
+            >
+              Learn more
+            </div>
+          </div>
+          <div className="banner2-content-2 flex justify-start col-span-1">
+            <img
+              src={
+                process.env.PUBLIC_URL +
+                "/Assets/banner-trafalgar-illustration-2.png"
+              }
+              alt="trafalgar-illustration"
+            />
+          </div>
         </div>
       </div>
     </div>
