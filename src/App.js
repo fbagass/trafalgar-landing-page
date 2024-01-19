@@ -12,9 +12,9 @@ function App() {
     });
   });
   return (
-    <div className="container">
+    <div className="w-100">
       {/* navbar */}
-      <div className="navbar flex justify-between items-center">
+      <div className="navbar container flex justify-between items-center">
         {/* Logo */}
         <div className="navbar-logo flex justify-center items-center gap-3">
           <div className="t-logo flex justify-center items-center">T</div>
