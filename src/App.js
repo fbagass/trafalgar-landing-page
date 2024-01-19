@@ -103,33 +103,59 @@ function App() {
             </div>
             <div className="service-card">
               <img
-                src={process.env.PUBLIC_URL + "/Assets/frame-search-doctor.svg"}
-                alt="search-doctor"
+                src={
+                  process.env.PUBLIC_URL + "/Assets/frame-online-pharmacy.svg"
+                }
+                alt="online-pharmacy"
               />
+              <h4>Online pharmacy</h4>
+              <p>
+                Buy your medicines with our mobile application with a simple
+                delivery system
+              </p>
             </div>
             <div className="service-card">
               <img
-                src={process.env.PUBLIC_URL + "/Assets/frame-search-doctor.svg"}
-                alt="search-doctor"
+                src={process.env.PUBLIC_URL + "/Assets/frame-consultation.svg"}
+                alt="consultation"
               />
+              <h4>Consultation</h4>
+              <p>
+                Free consultation with our trusted doctors and get the best
+                recomendations
+              </p>
             </div>
             <div className="service-card">
               <img
-                src={process.env.PUBLIC_URL + "/Assets/frame-search-doctor.svg"}
-                alt="search-doctor"
+                src={process.env.PUBLIC_URL + "/Assets/frame-detail-info.svg"}
+                alt="detail-info"
               />
+              <h4>Detail info</h4>
+              <p>
+                Free consultation with our trusted doctors and get the best
+                recomendations
+              </p>
             </div>
             <div className="service-card">
               <img
-                src={process.env.PUBLIC_URL + "/Assets/frame-search-doctor.svg"}
-                alt="search-doctor"
+                src={
+                  process.env.PUBLIC_URL + "/Assets/frame-emergency-care.svg"
+                }
+                alt="emergency-care"
               />
+              <h4>Emergency care</h4>
+              <p>
+                You can get 24/7 urgent care for yourself or your children and
+                your lovely family
+              </p>
             </div>
             <div className="service-card">
               <img
-                src={process.env.PUBLIC_URL + "/Assets/frame-search-doctor.svg"}
-                alt="search-doctor"
+                src={process.env.PUBLIC_URL + "/Assets/frame-tracking.svg"}
+                alt="tracking"
               />
+              <h4>Tracking</h4>
+              <p>Track and save your medical history and health data</p>
             </div>
           </div>
           <div className="service-btn text-center">Learn more</div>
