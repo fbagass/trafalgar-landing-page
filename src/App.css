@@ -2,12 +2,11 @@
   width: 100%;
   max-width: 1600px;
 }
+
 .navbar {
-  margin-top: 56px;
   height: 41px;
   max-width: 1487px;
 }
-
 .t-logo {
   width: 41px;
   height: 41px;
@@ -25,7 +24,6 @@
   line-height: 30.12px;
   color: #233348;
 }
-
 .navbar-menu {
   font-size: 18px;
   font-weight: 400;
@@ -36,19 +34,11 @@
 .header-bg {
   background-repeat: no-repeat;
 }
-.header {
-  margin-top: 104px;
-}
-
-.header-1 {
-  padding-top: 115px;
-}
 .header-1 h1 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
   max-width: 445px;
-  margin-bottom: 16px;
 }
 .header-1 p {
   font-size: 21px;
@@ -56,9 +46,7 @@
   line-height: 32px;
   color: #7d7987;
   max-width: 450px;
-  margin-bottom: 34px;
 }
-
 .consult-btn {
   width: 200px;
   height: 56px;
@@ -78,15 +66,11 @@
 }
 
 .service-bg-element {
-  margin-top: 183px;
   background-repeat: no-repeat;
 }
 .service-element {
   background-repeat: no-repeat;
-  background-position: top 564px right 158.21px;
-}
-.our-service {
-  gap: 24px;
+  background-position: top 548px right 158.21px;
 }
 .our-service h3 {
   font-size: 36px;
@@ -98,10 +82,8 @@
   font-weight: 300;
   line-height: 30px;
   color: #7d7987;
-  padding: 0px 124px;
 }
 .service-content {
-  margin-top: 90px;
   object-position: center;
 }
 .service-card {
@@ -126,9 +108,7 @@
   line-height: 28px;
   color: #7d7987;
 }
-
 .service-btn {
-  margin-top: 72px;
   width: 200px;
   height: 60px;
   border: 1.4px solid #458ff6;
@@ -141,8 +121,54 @@
   line-height: 60px;
 }
 
-@media screen and (max-width: 1024px) {
+.banner1-content-1 img {
+  width: 100%;
+  height: 100%;
+  max-width: 650px;
+  max-height: 477px;
+}
+.banner1-content-2 h3,
+.banner2-content-1 h3 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 56px;
+}
+.banner1-content-2 p,
+.banner2-content-1 p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  color: #7d7987;
+}
+.banner2-bg {
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.banner2-content-2 img {
+  width: 100%;
+  height: 100%;
+  max-width: 655px;
+  max-height: 434px;
+}
+
+@media screen and (max-width: 1280px) {
   .header-1 {
+    order: 2;
+  }
+  .banner1-content-2,
+  .banner2-content-1 {
+    padding-left: 42px;
+    padding-right: 42px;
+  }
+  .banner1-content-2 p,
+  .banner2-content-1 p {
+    max-width: 586px;
+  }
+  .banner2-content-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: end;
     order: 2;
   }
 }
