@@ -29,13 +29,15 @@
   color: #7d7987;
 }
 
+.header-bg {
+  background-repeat: no-repeat;
+}
 .header {
   margin-top: 104px;
 }
 
-.header-1 img {
-  margin-left: -90px;
-  height: 115px;
+.header-1 {
+  padding-top: 115px;
 }
 .header-1 h1 {
   font-size: 48px;
