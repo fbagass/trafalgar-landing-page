@@ -1,3 +1,7 @@
+.page-size {
+  width: 100%;
+  max-width: 1600px;
+}
 .navbar {
   margin-top: 56px;
   height: 41px;
@@ -71,6 +75,70 @@
   height: 100%;
   max-width: 693px;
   max-height: 598px;
+}
+
+.service-bg-element {
+  margin-top: 183px;
+  background-repeat: no-repeat;
+}
+.service-element {
+  background-repeat: no-repeat;
+  background-position: top 564px right 158.21px;
+}
+.our-service {
+  gap: 24px;
+}
+.our-service h3 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 56px;
+}
+.our-service p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  color: #7d7987;
+  padding: 0px 124px;
+}
+.service-content {
+  margin-top: 90px;
+  object-position: center;
+}
+.service-card {
+  width: 350px;
+  height: 354px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  padding: 54px 37px;
+  box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+  -webkit-box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+  -moz-box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+}
+.service-card h4 {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 56px;
+}
+.service-card p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #7d7987;
+}
+
+.service-btn {
+  margin-top: 72px;
+  width: 200px;
+  height: 60px;
+  border: 1.4px solid #458ff6;
+  border-radius: 55px;
+  background-color: #ffffff;
+  color: #458ff6;
+
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 60px;
 }
 
 @media screen and (max-width: 1024px) {
