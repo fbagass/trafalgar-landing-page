@@ -237,6 +237,80 @@ function App() {
           </div>
         </div>
       </div>
+      {/* Testimonials */}
+      <div
+        className="testimonial-bg container flex flex-col items-center mb-56"
+        style={{
+          backgroundImage: `url(${
+            process.env.PUBLIC_URL + "/Assets/element-full.svg"
+          })`,
+        }}
+      >
+        <div
+          className="testi-content flex flex-col items-center mb-12"
+          style={{
+            backgroundImage: `url(${
+              process.env.PUBLIC_URL + "/Assets/element.svg"
+            })`,
+          }}
+        >
+          <h3>What our customer are saying</h3>
+          <img
+            src={process.env.PUBLIC_URL + "/Assets/rectangle.svg"}
+            alt="rectangle"
+            style={{ height: "2px" }}
+            className="rectangle-wht"
+          />
+          <div className="testi-card grid grid-cols-1 xl:grid-cols-2">
+            <div className="flex gap-8 items-center">
+              <img
+                src={process.env.PUBLIC_URL + "/Assets/image-profile.png"}
+                alt="image-profile"
+                className="profile-border"
+              />
+              <div>
+                <h5>Edward Newgate</h5>
+                <p>Founder Circle</p>
+              </div>
+            </div>
+            <div>
+              <p className="ps-4 pe-12">
+                “Our dedicated patient engagement app and web portal allow you
+                to access information instantaneously (no tedeous form, long
+                calls, or administrative hassle) and securely”
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="arrow-testi flex gap-24">
+          <img
+            src={process.env.PUBLIC_URL + "/Assets/arrow-left.svg"}
+            alt="arrow-left"
+          />
+          <div className="flex gap-5">
+            <img
+              src={process.env.PUBLIC_URL + "/Assets/ellipse-bold.svg"}
+              alt="ellipse-bold"
+            />
+            <img
+              src={process.env.PUBLIC_URL + "/Assets/ellipse.svg"}
+              alt="ellipse"
+            />
+            <img
+              src={process.env.PUBLIC_URL + "/Assets/ellipse.svg"}
+              alt="ellipse"
+            />
+            <img
+              src={process.env.PUBLIC_URL + "/Assets/ellipse.svg"}
+              alt="ellipse"
+            />
+          </div>
+          <img
+            src={process.env.PUBLIC_URL + "/Assets/arrow-right.svg"}
+            alt="arrow-right"
+          />
+        </div>
+      </div>
     </div>
   );
 }

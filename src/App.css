@@ -151,6 +151,56 @@
   max-height: 434px;
 }
 
+.testimonial-bg {
+  height: 502px;
+  background-repeat: no-repeat;
+  background-position: left 160px bottom 140px;
+}
+.testi-content {
+  width: 100%;
+  max-width: 1120px;
+  height: max-content;
+
+  background-color: #5a98f2;
+  border-radius: 24px;
+  padding: 64px;
+
+  background-repeat: no-repeat;
+  background-position: top -14px right -48px;
+}
+.testi-content h3 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #ffffff;
+}
+.rectangle-wht {
+  filter: brightness(0) invert(1);
+  margin: 25px 0px;
+}
+
+.testi-card {
+  padding: 41px 54px 15px 54px;
+}
+.profile-border {
+  width: 133px;
+  height: 133px;
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+}
+.testi-card h5 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #ffffff;
+}
+.testi-card p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
 @media screen and (max-width: 1280px) {
   .header-1 {
     order: 2;
