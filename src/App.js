@@ -311,6 +311,104 @@ function App() {
           />
         </div>
       </div>
+      {/* Article */}
+      <div
+        className="article-bg w-100 flex flex-col items-center"
+        style={{
+          backgroundImage: `url(${
+            process.env.PUBLIC_URL + "/Assets/element-article.svg"
+          })`,
+        }}
+      >
+        <h3>Check out our latest article</h3>
+        <img
+          src={process.env.PUBLIC_URL + "/Assets/rectangle.svg"}
+          alt="rectangle"
+          style={{ height: "2px", marginTop: "26px", marginBottom: "37px" }}
+        />
+        <div
+          className="article-content container py-11 mb-6 flex justify-center flex-wrap gap-9"
+          style={{
+            backgroundImage: `url(${
+              process.env.PUBLIC_URL + "/Assets/element-full.svg"
+            })`,
+          }}
+        >
+          <div className="article-card">
+            <img
+              src={process.env.PUBLIC_URL + "/Assets/image-article-1.png"}
+              alt="article"
+              className="article-img"
+            />
+            <div className="article-desc pt-6 px-8">
+              <h3 className="pe-4 mb-3">
+                Disease detection, check up in the laboratory
+              </h3>
+              <p className="pe-6">
+                In this case, the role of the health laboratory is very
+                important to do a disease detection...
+              </p>
+              <div className="readmore-btn flex items-center mt-6 gap-4">
+                Read more{" "}
+                <img
+                  src={process.env.PUBLIC_URL + "/Assets/arrow-right.svg"}
+                  alt="arrow-right"
+                  style={{ height: "9px" }}
+                />
+              </div>
+            </div>
+          </div>
+          <div className="article-card">
+            <img
+              src={process.env.PUBLIC_URL + "/Assets/image-article-2.png"}
+              alt="article"
+              className="article-img"
+            />
+            <div className="article-desc pt-6 px-8">
+              <h3 className="pe-4 mb-3">
+                Herbal medicines that are safe for consumption{" "}
+              </h3>
+              <p className="pe-6">
+                Herbal medicine is very widely used at this time because of its
+                very good for your health...
+              </p>
+              <div className="readmore-btn flex items-center mt-6 gap-4">
+                Read more{" "}
+                <img
+                  src={process.env.PUBLIC_URL + "/Assets/arrow-right.svg"}
+                  alt="arrow-right"
+                  style={{ height: "9px" }}
+                />
+              </div>
+            </div>
+          </div>
+          <div className="article-card">
+            <img
+              src={process.env.PUBLIC_URL + "/Assets/image-article-3.png"}
+              alt="article"
+              className="article-img"
+            />
+            <div className="article-desc pt-6 px-8">
+              <h3 className="pe-4 mb-3">
+                Natural care for healthy facial skin{" "}
+              </h3>
+              <p className="pe-6">
+                A healthy lifestyle should start from now and also for your skin
+                health. There are some...{" "}
+              </p>
+              <div className="readmore-btn flex items-center mt-6 gap-4">
+                Read more{" "}
+                <img
+                  src={process.env.PUBLIC_URL + "/Assets/arrow-right.svg"}
+                  alt="arrow-right"
+                  style={{ height: "9px" }}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="view-all-btn text-center">View all</div>
+      </div>
     </div>
   );
 }
