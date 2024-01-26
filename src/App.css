@@ -261,6 +261,62 @@
   line-height: 28px;
   color: #4089ed;
 }
+
+.footer-bg {
+  background-repeat: no-repeat;
+  background-position: right 91.42px top;
+  padding-top: 72px;
+}
+.footer {
+  min-height: 432px;
+  background-position: left -15px bottom -15px;
+  background-repeat: no-repeat;
+  background-color: #5a98f2;
+}
+.footer-content {
+  max-width: 1220px;
+}
+.t-footer {
+  height: 41px;
+  width: 41px;
+  border-radius: 50%;
+  color: #5a98f2;
+  background-color: #ffffff;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32.63px;
+}
+.footer-logo h5 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30.12px;
+  color: #ffffff;
+}
+.footer-1 p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #ffffff;
+}
+.footer-2,
+.footer-3,
+.footer-4 {
+  color: #ffffff;
+}
+.footer-2 h5,
+.footer-3 h5,
+.footer-4 h5 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.footer-2 p,
+.footer-3 p,
+.footer-4 p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 38px;
+}
 @media screen and (max-width: 1280px) {
   .header-1 {
     order: 2;
