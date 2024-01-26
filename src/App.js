@@ -313,7 +313,7 @@ function App() {
       </div>
       {/* Article */}
       <div
-        className="article-bg w-100 flex flex-col items-center"
+        className="article-bg w-100 flex flex-col items-center mb-32"
         style={{
           backgroundImage: `url(${
             process.env.PUBLIC_URL + "/Assets/element-article.svg"
@@ -408,6 +408,63 @@ function App() {
           </div>
         </div>
         <div className="view-all-btn text-center">View all</div>
+      </div>
+      {/* Footer */}
+      <div
+        className="footer-bg w-100"
+        style={{
+          backgroundImage: `url(${
+            process.env.PUBLIC_URL + "/Assets/element-full.svg"
+          })`,
+        }}
+      >
+        <div
+          className="footer flex justify-center items-center px-10"
+          style={{
+            backgroundImage: `url(${
+              process.env.PUBLIC_URL + "/Assets/element-full.svg"
+            })`,
+          }}
+        >
+          <div className="footer-content grid grid-cols-1 xl:grid-cols-7 gap-x-40 gap-y-10 py-28">
+            <div className="footer-1 col-span-3 w-96">
+              <div className="footer-logo flex items-center gap-3 mb-5">
+                <div className="t-footer flex justify-center items-center">
+                  T
+                </div>
+                <h5>Trafalgar</h5>
+              </div>
+              <p className="mb-8">
+                Trafalgar provides progressive, and affordable healthcare,
+                accessible on mobile and online for everyone
+              </p>
+              <p>©Trafalgar PTY LTD 2020. All rights reserved</p>
+            </div>
+            <div className="col-span-4 grid grid-cols-3 gap-24">
+              <div className="footer-2 col-span-1">
+                <h5>Company</h5>
+                <p>About</p>
+                <p>Testimonials</p>
+                <p>Find a doctor</p>
+                <p>Apps</p>
+              </div>
+              <div className="footer-3 col-span-1">
+                <h5>Region</h5>
+                <p>Indonesia</p>
+                <p>Singapore</p>
+                <p>Hongkong</p>
+                <p>Canada</p>
+              </div>
+              <div className="footer-4 col-span-1">
+                <h5>Help</h5>
+                <p>Help center</p>
+                <p>Contact support</p>
+                <p>Instructions</p>
+                <p>How it works</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
